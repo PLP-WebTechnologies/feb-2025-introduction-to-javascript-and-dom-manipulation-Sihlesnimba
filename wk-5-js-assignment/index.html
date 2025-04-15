@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My first JavaScript assignment" />
+    <title>My First JavaScript Assignment</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="main-title">Welcome to My Page</h1>
+    </header>
+
+    <main>
+      <p id="intro-text">
+        This text will change when you click the button below.
+      </p>
+      <button onclick="changeText()">Change Text</button>
+
+      <p id="style-text">This text will get styled!</p>
+      <button onclick="changeStyle()">Change Style</button>
+
+      <div id="container">
+        <p>This is a container where we will add or remove an item.</p>
+      </div>
+      <button onclick="addElement()">Add Element</button>
+      <button onclick="removeElement()">Remove Element</button>
+    </main>
+
+    <footer>
+      <p>All rights reserved</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
